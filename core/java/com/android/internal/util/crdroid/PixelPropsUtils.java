@@ -78,59 +78,74 @@ public final class PixelPropsUtils {
             "raven"
     };
 
-    // Packages to Spoof as Pixel 8 Pro
+    // Packages to Spoof as Pixel 9 Pro XL
     private static final String[] packagesToChangePixel9ProXL = {
+            "com.google.ar.core",
+            "com.google.android.aicore",
+            "com.google.android.dialer",
+            "com.google.android.inputmethod.latin",
+            "com.google.android.soundpicker",
             "com.google.android.apps.aiwallpapers",
+            "com.google.android.apps.accessibility.magnifier",
             "com.google.android.apps.bard",
             "com.google.android.apps.customization.pixel",
             "com.google.android.apps.emojiwallpaper",
             "com.google.android.apps.nexuslauncher",
+            "com.google.android.apps.pixel.agent",
+            "com.google.android.apps.pixel.creativeassistant",
             "com.google.android.apps.privacy.wildlife",
+            "com.google.android.apps.recorder",
             "com.google.android.apps.wallpaper",
             "com.google.android.apps.wallpaper.pixel",
+            "com.google.android.apps.weather",
             "com.google.android.googlequicksearchbox",
             "com.google.android.wallpaper.effects",
-            "com.google.pixel.livewallpaper"
+            "com.google.pixel.livewallpaper",
+            "com.netflix.mediaclient"
     };
 
     // Packages to Spoof as Pixel 5a
     private static final String[] packagesToChangePixel5a = {
-            "com.android.chrome",
-            "com.android.vending",
             "com.breel.wallpapers20",
-            "com.nhs.online.nhsonline",
-            "com.netflix.mediaclient"
+            "com.nhs.online.nhsonline"
     };
 
     // Packages to Keep with original device
     private static final String[] packagesToKeep = {
+            "com.android.chrome",
+            "com.android.sharedstoragebackup",
+            "com.android.vending",
             "com.google.android.MTCL83",
             "com.google.android.UltraCVM",
+            "com.google.android.apps.adm",
             "com.google.android.apps.cameralite",
             "com.google.android.apps.dreamlinerupdater",
             "com.google.android.apps.dreamliner",
             "com.google.android.apps.miphone.aiai.AiaiApplication",
             "com.google.android.apps.motionsense.bridge",
             "com.google.android.apps.pixelmigrate",
+            "com.google.android.apps.pixel.health",
             "com.google.android.apps.recorder",
             "com.google.android.apps.restore",
             "com.google.android.apps.subscriptions.red",
             "com.google.android.apps.tachyon",
             "com.google.android.apps.tips",
+            "com.google.android.apps.turbo",
             "com.google.android.apps.tycho",
+            "com.google.android.apps.wear.companion",
             "com.google.android.apps.wearables.maestro.companion",
             "com.google.android.apps.youtube.kids",
             "com.google.android.apps.youtube.music",
             "com.google.android.as",
+            "com.google.android.as.oss",
             "com.google.android.backup",
             "com.google.android.backuptransport",
-            "com.google.android.dialer",
             "com.google.android.euicc",
             "com.google.android.setupwizard",
             "com.google.android.youtube",
-            "com.google.ar.core",
             "com.google.intelligence.sense",
-            "com.google.oslo"
+            "com.google.oslo",
+            "com.snapchat.android"
     };
 
     // Packages to Spoof as ROG Phone 6
